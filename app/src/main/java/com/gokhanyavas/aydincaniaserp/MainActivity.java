@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide(); // barı gizle
 
+
         mProgressDialog = new ProgressDialog(this);
         mProgressDialog.setTitle("Yükleniyor...");
         mProgressDialog.setMessage("Lütfen Bekleyiniz.");
